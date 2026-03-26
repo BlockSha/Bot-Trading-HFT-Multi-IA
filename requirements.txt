@@ -1,0 +1,5 @@
+ccxt
+google-generativeai
+openai
+python-dotenv
+rich
