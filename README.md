@@ -52,7 +52,7 @@ Un bot de trading algorithmique haute fréquence (HFT) connecté au Testnet de B
 Lancer le bot via la commande suivante :
 
 ```bash
-python beauty_bot.py
+python trading_bot.py
 ```
 
 Le dashboard s'affichera directement dans le terminal et commencera le scan des paires USDT. Pour arrêter proprement le bot, utilisez `Ctrl + C`.
