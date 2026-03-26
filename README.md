@@ -24,27 +24,35 @@ Un bot de trading algorithmique haute fréquence (HFT) connecté au Testnet de B
    ```bash
    git clone [https://github.com/blocksha/Bot-Trading-HFT-Multi-IA.git](https://github.com/blocksha/Bot-Trading-HFT-Multi-IA.git)
    cd Bot-Trading-HFT-Multi-IA
-   
-Créer un environnement virtuel (recommandé) :
+   ```
 
-python -m venv venv
-source venv/bin/activate  # Sur Windows : venv\Scripts\activate
-Installer les dépendances :
+2. **Créer un environnement virtuel (recommandé) :**
+   ```bash
+   python -m venv venv
+   source venv/bin/activate
+   ```
 
-pip install -r requirements.txt
-Configurer les variables d'environnement :
-Créer un fichier .env à la racine du projet et ajouter les clés API (ne jamais commiter ce fichier) :
+3. **Installer les dépendances :**
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-BINANCE_PUBLIC_KEY=votre_cle_publique_testnet
-BINANCE_SECRET_KEY=votre_cle_secrete_testnet
-GEMINI_API_KEY=votre_cle_gemini
-OPENAI_API_KEY=votre_cle_openai
-MISTRAL_API_KEY=votre_cle_mistral
+4. **Configurer les variables d'environnement :**
+   Créer un fichier `.env` à la racine du projet et ajouter les clés API :
+   ```env
+   BINANCE_PUBLIC_KEY=votre_cle_publique_testnet
+   BINANCE_SECRET_KEY=votre_cle_secrete_testnet
+   GEMINI_API_KEY=votre_cle_gemini
+   OPENAI_API_KEY=votre_cle_openai
+   MISTRAL_API_KEY=votre_cle_mistral
+   ```
 
-🚀 Utilisation
+## 🚀 Utilisation
 
 Lancer le bot via la commande suivante :
 
-Bash
-python bot.py
-Le dashboard s'affichera directement dans le terminal et commencera le scan des paires USDT. Pour arrêter proprement le bot, utilisez Ctrl + C.
+```bash
+python beauty_bot.py
+```
+
+Le dashboard s'affichera directement dans le terminal et commencera le scan des paires USDT. Pour arrêter proprement le bot, utilisez `Ctrl + C`.
